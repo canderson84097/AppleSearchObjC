@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		2CB71A5523997FEB00506724 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB71A5423997FEB00506724 /* AppDelegate.m */; };
 		2CB71A5823997FEB00506724 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB71A5723997FEB00506724 /* SceneDelegate.m */; };
-		2CB71A5B23997FEB00506724 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB71A5A23997FEB00506724 /* ViewController.m */; };
 		2CB71A5E23997FEB00506724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB71A5C23997FEB00506724 /* Main.storyboard */; };
 		2CB71A6023997FEB00506724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB71A5F23997FEB00506724 /* Assets.xcassets */; };
 		2CB71A6323997FEB00506724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB71A6123997FEB00506724 /* LaunchScreen.storyboard */; };
 		2CB71A6623997FEB00506724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB71A6523997FEB00506724 /* main.m */; };
+		2CB71A7923998CBC00506724 /* CDAMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB71A7823998CBC00506724 /* CDAMovie.m */; };
+		2CB71A7F2399971700506724 /* CDAMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB71A7E2399971700506724 /* CDAMovieController.m */; };
+		2CB71A822399ADDC00506724 /* MoviesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB71A812399ADDC00506724 /* MoviesListTableViewController.swift */; };
+		2CB71A842399B09900506724 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB71A832399B09900506724 /* MovieDetailViewController.swift */; };
+		2CE087FD239AF6E5004C5C7E /* TVShowSeasonEpisodeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE087FC239AF6E5004C5C7E /* TVShowSeasonEpisodeListTableViewController.swift */; };
+		2CE11794239AAAB7003D2212 /* TVShowListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE11793239AAAB7003D2212 /* TVShowListTableViewController.swift */; };
+		2CE11796239AAAE3003D2212 /* TVShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE11795239AAAE3003D2212 /* TVShowDetailViewController.swift */; };
+		2CE11799239AAC2A003D2212 /* CDATVShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE11798239AAC2A003D2212 /* CDATVShowController.m */; };
+		2CE1179C239AAEA4003D2212 /* CDATVShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1179B239AAEA4003D2212 /* CDATVShow.m */; };
+		2CE1179F239AB1F9003D2212 /* CDAMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1179E239AB1F9003D2212 /* CDAMusic.m */; };
+		2CE117A2239AB27F003D2212 /* CDAMusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE117A1239AB27F003D2212 /* CDAMusicController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +32,29 @@
 		2CB71A5423997FEB00506724 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2CB71A5623997FEB00506724 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		2CB71A5723997FEB00506724 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2CB71A5923997FEB00506724 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2CB71A5A23997FEB00506724 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2CB71A5D23997FEB00506724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CB71A5F23997FEB00506724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB71A6223997FEB00506724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB71A6423997FEB00506724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB71A6523997FEB00506724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CB71A7723998CBC00506724 /* CDAMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAMovie.h; sourceTree = "<group>"; };
+		2CB71A7823998CBC00506724 /* CDAMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAMovie.m; sourceTree = "<group>"; };
+		2CB71A7D2399971700506724 /* CDAMovieController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAMovieController.h; sourceTree = "<group>"; };
+		2CB71A7E2399971700506724 /* CDAMovieController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAMovieController.m; sourceTree = "<group>"; };
+		2CB71A802399ADDC00506724 /* AppleSearchObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleSearchObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		2CB71A812399ADDC00506724 /* MoviesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListTableViewController.swift; sourceTree = "<group>"; };
+		2CB71A832399B09900506724 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		2CE087FC239AF6E5004C5C7E /* TVShowSeasonEpisodeListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSeasonEpisodeListTableViewController.swift; sourceTree = "<group>"; };
+		2CE11793239AAAB7003D2212 /* TVShowListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowListTableViewController.swift; sourceTree = "<group>"; };
+		2CE11795239AAAE3003D2212 /* TVShowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailViewController.swift; sourceTree = "<group>"; };
+		2CE11797239AAC2A003D2212 /* CDATVShowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDATVShowController.h; sourceTree = "<group>"; };
+		2CE11798239AAC2A003D2212 /* CDATVShowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDATVShowController.m; sourceTree = "<group>"; };
+		2CE1179A239AAEA4003D2212 /* CDATVShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDATVShow.h; sourceTree = "<group>"; };
+		2CE1179B239AAEA4003D2212 /* CDATVShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDATVShow.m; sourceTree = "<group>"; };
+		2CE1179D239AB1F9003D2212 /* CDAMusic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAMusic.h; sourceTree = "<group>"; };
+		2CE1179E239AB1F9003D2212 /* CDAMusic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAMusic.m; sourceTree = "<group>"; };
+		2CE117A0239AB27F003D2212 /* CDAMusicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAMusicController.h; sourceTree = "<group>"; };
+		2CE117A1239AB27F003D2212 /* CDAMusicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAMusicController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +73,7 @@
 			children = (
 				2CB71A5223997FEB00506724 /* AppleSearchObjC */,
 				2CB71A5123997FEB00506724 /* Products */,
+				2CB71A6C2399800E00506724 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +88,74 @@
 		2CB71A5223997FEB00506724 /* AppleSearchObjC */ = {
 			isa = PBXGroup;
 			children = (
+				2CB71A702399803700506724 /* UI */,
+				2CB71A6F2399803100506724 /* Models */,
+				2CB71A6E2399802700506724 /* ModelControllers */,
+				2CB71A6D2399801F00506724 /* ViewControllers */,
+			);
+			path = AppleSearchObjC;
+			sourceTree = "<group>";
+		};
+		2CB71A6C2399800E00506724 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				2CB71A5323997FEB00506724 /* AppDelegate.h */,
 				2CB71A5423997FEB00506724 /* AppDelegate.m */,
 				2CB71A5623997FEB00506724 /* SceneDelegate.h */,
 				2CB71A5723997FEB00506724 /* SceneDelegate.m */,
-				2CB71A5923997FEB00506724 /* ViewController.h */,
-				2CB71A5A23997FEB00506724 /* ViewController.m */,
-				2CB71A5C23997FEB00506724 /* Main.storyboard */,
 				2CB71A5F23997FEB00506724 /* Assets.xcassets */,
 				2CB71A6123997FEB00506724 /* LaunchScreen.storyboard */,
 				2CB71A6423997FEB00506724 /* Info.plist */,
 				2CB71A6523997FEB00506724 /* main.m */,
 			);
-			path = AppleSearchObjC;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CB71A6D2399801F00506724 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CB71A812399ADDC00506724 /* MoviesListTableViewController.swift */,
+				2CB71A802399ADDC00506724 /* AppleSearchObjC-Bridging-Header.h */,
+				2CB71A832399B09900506724 /* MovieDetailViewController.swift */,
+				2CE11793239AAAB7003D2212 /* TVShowListTableViewController.swift */,
+				2CE087FC239AF6E5004C5C7E /* TVShowSeasonEpisodeListTableViewController.swift */,
+				2CE11795239AAAE3003D2212 /* TVShowDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2CB71A6E2399802700506724 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CB71A7D2399971700506724 /* CDAMovieController.h */,
+				2CB71A7E2399971700506724 /* CDAMovieController.m */,
+				2CE11797239AAC2A003D2212 /* CDATVShowController.h */,
+				2CE11798239AAC2A003D2212 /* CDATVShowController.m */,
+				2CE117A0239AB27F003D2212 /* CDAMusicController.h */,
+				2CE117A1239AB27F003D2212 /* CDAMusicController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		2CB71A6F2399803100506724 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CB71A7723998CBC00506724 /* CDAMovie.h */,
+				2CB71A7823998CBC00506724 /* CDAMovie.m */,
+				2CE1179A239AAEA4003D2212 /* CDATVShow.h */,
+				2CE1179B239AAEA4003D2212 /* CDATVShow.m */,
+				2CE1179D239AB1F9003D2212 /* CDAMusic.h */,
+				2CE1179E239AB1F9003D2212 /* CDAMusic.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CB71A702399803700506724 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2CB71A5C23997FEB00506724 /* Main.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,11 +184,13 @@
 		2CB71A4823997FEB00506724 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CDA;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Renaissance Apps";
 				TargetAttributes = {
 					2CB71A4F23997FEB00506724 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -146,10 +230,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CB71A5B23997FEB00506724 /* ViewController.m in Sources */,
 				2CB71A5523997FEB00506724 /* AppDelegate.m in Sources */,
+				2CE087FD239AF6E5004C5C7E /* TVShowSeasonEpisodeListTableViewController.swift in Sources */,
 				2CB71A6623997FEB00506724 /* main.m in Sources */,
 				2CB71A5823997FEB00506724 /* SceneDelegate.m in Sources */,
+				2CE11799239AAC2A003D2212 /* CDATVShowController.m in Sources */,
+				2CE11796239AAAE3003D2212 /* TVShowDetailViewController.swift in Sources */,
+				2CE1179C239AAEA4003D2212 /* CDATVShow.m in Sources */,
+				2CE117A2239AB27F003D2212 /* CDAMusicController.m in Sources */,
+				2CE1179F239AB1F9003D2212 /* CDAMusic.m in Sources */,
+				2CB71A7923998CBC00506724 /* CDAMovie.m in Sources */,
+				2CE11794239AAAB7003D2212 /* TVShowListTableViewController.swift in Sources */,
+				2CB71A842399B09900506724 /* MovieDetailViewController.swift in Sources */,
+				2CB71A822399ADDC00506724 /* MoviesListTableViewController.swift in Sources */,
+				2CB71A7F2399971700506724 /* CDAMovieController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,14 +383,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AppleSearchObjC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RenaissanceApps.AppleSearchObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppleSearchObjC/ViewControllers/AppleSearchObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,14 +403,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AppleSearchObjC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RenaissanceApps.AppleSearchObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppleSearchObjC/ViewControllers/AppleSearchObjC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
